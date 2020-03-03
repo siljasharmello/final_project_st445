@@ -1,16 +1,16 @@
-### 87/100. Very nice work. Please find the comments below for details.
+### 89/100. Thanks for the hard work! Please find the comments below for details.
 ### Scores on each part
 #### 1. Introduction and data description 
-##### 4/5 Nice introduction and very interesting topic. Data description could be made better by summarizing some key features of the data at the beginning. 
+##### 4/5 Nice introduction and very interesting topic. Would be better to briefly talk about the data at the beginning. 
 #### 2. Formulation of research question
-##### 5/5 Very clear formulation of the objectives. 
+##### 4.5/5 Interesting research question formulated at the beginning. 
 #### 3. Data acquisition
-##### 9/10 By importing a `csv` file and using Twitter API. 
+##### 10/10 By importing a `csv` file, web scraping and the use of API, demonstrating strong abilities in data acquisition. 
 #### 4. Data cleaning and reshaping
-##### 25.5/30 This section is well-organized, but would be better by adding more explanatory text and shortening some lengthy output. 
+##### 29/30 A lot of work have been done here. The data section is a bit lengthy and unorganized. Would be better to split this section into two separate sections, on data acquisition and data cleaning. 
 #### 5. Visualization
-##### 28/30 Includes several interactive map plots, line plots, boxplots, would clouds. Most of the figures are adjusted to be very nice-looking. But would be better to add more discussions for some of these figures/plots. 
+##### 26/30 Data visualization includes a world map, several boxplots, line plots, word clouds, a plot of network, etc. The twitter location plot and the Venn diagram are nice looking. The line plot and box plot at code cell [95] could be made better. 
 #### 6. Data modelling
-##### 8/10 Use of random forest for classification and calculating the variable importance score. Visualization is used to better explain the results. Would be better to include the ROC curve as well. 
+##### 7.5/10 Includes use of classification. ROC curve is plotted to illustrate the results. Would be better to compare the performance of several different classifiers. 
 #### 7. Conclusion and the overall structure 
-##### 7.5/10 The conclusion is good by summarizing some of the key findings. The overall structure would be made better by including more explanatory text and more detailed discussions about the results/plots/figures. A very nice work overall!
+##### 8/10 The conclusion is good by summarizing some of the key findings and discussing future directions. The overall structure would be made better as discussed in 4. 
