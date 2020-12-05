@@ -173,12 +173,11 @@ def get_actor_details(actors):
             [actor, birth, height, birth_i, headshot, trademark])
     return list_of_stuff
 
-
-def get_birthplaces(actor_place):
+def get_birthplaces(actor_place, api_key):
     """Function that takes names of places as arguments and returns
     a dataframe with actor ID, birth place, name of birth town, 
     longitude and latitude of the birth town."""
-    gmaps = googlemaps.Client(key='AIzaSyBy90IsVkG_DY5OSGCWLDbiY7_TpKaZ28U')
+    gmaps = googlemaps.Client(key=api_key)
     list_actor_places = []
     for actor, place in actor_place:
         try:
